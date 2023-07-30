@@ -1,0 +1,89 @@
+.about-holder{
+    width: 100%;
+}
+.two-parts{
+    position: relative;
+    width: 100%;
+    top: 35vh;
+}
+
+#about-left .left-img img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-footer{
+    margin-top: 50vh;
+}
+#about-right .about-text{
+    width: 100%;
+    height: auto;
+}
+.about-text h3{
+    color: #24711f;
+    font-family: Lalezar;
+}
+.about-text p{
+    color: #000;
+}
+.about-text .p-one{
+    text-align: right;
+    font-family: Lalezar;
+    margin-top: 5%;
+    line-height: 1.5;
+}
+.about-text .p-two{
+    text-align: right;
+    font-family: Lalezar;
+    margin-top: 5%;
+    font-size: smaller;
+    line-height: 2;
+}
+.about-text ul{
+    text-align: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-text li{
+    list-style: none;
+    font-family: Lalezar;
+    line-height: 2;
+}
+.about-text li span{
+    padding-left: 0.5rem;
+    color: #fe2813;
+}
+.about-text .p-three{
+    text-align: right;
+    font-family: Lalezar;
+}
+.dg-footer{
+    height: 14vh;
+    width: 100%;
+    background-color: #264d20;
+}
+
+.dg-footer .developer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+.dg-footer .developer p{
+    font-size: 0.8rem;
+}
+@media screen and (max-width: 767px){
+    .left-img{
+        display: none;
+    }
+    .two-parts{
+        top: 25vh
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 991px){
+    .about-text .p-two , .p-three{
+        display: none;
+    }
+}

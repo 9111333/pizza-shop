@@ -1,0 +1,39 @@
+.g-footer{
+    margin-top: 7%;
+    position: relative;
+}
+.g-footer #footer-img{
+    position: absolute;
+    right: 38%;
+    top: 20%;
+}
+#footer-img img{
+    width: 100%;
+    height: auto;
+}
+.dg-footer{
+    height: 14vh;
+    width: 100%;
+    background-color: #264d20;
+}
+
+.dg-footer .developer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+.dg-footer .developer p{
+    font-size: 0.8rem;
+}
+@media only screen and (max-width: 767px){
+    #footer-img{
+        display: none;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    #footer-img{
+        right: 30% !important;
+    }
+}

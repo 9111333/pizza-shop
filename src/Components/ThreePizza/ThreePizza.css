@@ -1,0 +1,15 @@
+.T-img img{
+    width: 100%;
+    height: auto;
+}
+.T-name{
+    padding: 5% 0;
+}
+.T-p{
+    padding-bottom: 5%;
+}
+.btn-wrapper{
+    margin-bottom: 2%;
+    margin-top: 10%;
+    right: 3%;
+}

@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.containerG13{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    width: 300px;
+    height: 560px;
+    border-radius: 30px;
+    -webkit-box-shadow:0px 56px 72px -30px rgba(81,108,95,0.46);
+            box-shadow:0px 56px 72px -30px rgba(81,108,95,0.46)
+}
+
+.next-screenG13{
+    position: absolute;
+    background-color: #101010;
+    width: 100%;
+    padding: 40px 25px 40px 25px;
+   z-index: 100;
+}
+
+.screen-1G13 .topG13{
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height: 350px;
+    background: url('IMG_20230511_125152_340.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-1G13{
+    padding: 40px 25px 0 25px;
+}
+
+/* .screen-1G img{
+    height: 16px;
+} */
+
+.screen-1G13 .topG13 h1{
+    text-shadow: 0px 2px 12px rgba(0,0,0,0.86);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 40px 20px;
+    line-height: 1;
+    z-index: 1;
+    opacity: 0;
+}
+
+.screen-1G13 .topG13 h1 span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.screen-1G13 .buttonG13{
+    position: absolute;
+    left: 50%;
+    top: 84%;
+    -webkit-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    width: 42px;
+    height: 42px;        
+    background-color: #101010;
+    border-radius: 50%;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.screen-1G13 .buttonG13 .svg213{
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    -webkit-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    fill: #fff;
+    height: 16px;
+    width: 16px; 
+}
+
+.screen-1G13 .loadingG13{
+    position: absolute;
+    bottom: 16px;
+    font-size: 14px;
+    left: 40px;
+    font-weight: 500;
+    z-index: 210;
+    color: #cacaca;
+    font-family: Lalezar;
+}
+
+.next-screenG13 .reverseG13 {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+    -webkit-tap-highlight-color: rgba(255, 255,2555,0 );
+    cursor: pointer;
+}
+
+.next-screenG13 h1{
+    color: #fff;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.next-screenG13 h1 span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.next-screenG13 .headerG13{
+    width: 100%;
+    height: 150px;
+    background: url('IMG_20230511_125152_340.jpg');
+    border: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.next-screenG13 p{
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 25px;
+}

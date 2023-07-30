@@ -1,0 +1,50 @@
+.B-col{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Lalezar;
+}
+
+.B-a{
+    background-color: #ef2410;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5%;
+    position: relative;
+    z-index: 1;
+    border: solid 1px #ef2410;
+    border-radius: 0.5rem;
+    transition: all ease 0.4s;
+}
+
+
+.B-a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    transition: all ease 0.4s;
+    z-index: -1;
+    border-radius: 0.5rem;
+}
+.B-a:hover::before{
+    width: 100%;
+    transition: all ease 0.5s;
+}
+.B-a:hover{
+    color: #ef2410;
+    transition: all ease 0.4s;
+}
+
+@media only screen and (max-width: 289px) {
+    .B-col{
+        display: none;
+    }
+}
+@media only screen and (min-width: 289px) and (max-width: 389px){
+    #btn-remv{
+        display: none;
+    }
+}

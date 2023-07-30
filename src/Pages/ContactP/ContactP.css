@@ -1,0 +1,173 @@
+#two-bgs {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.right-bg {
+  flex: 1;
+  background-color: #396833;
+}
+
+.left-bg {
+  flex: 1;
+  background-color: #396833;
+}
+
+#C-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  font-family: Lalezar;
+}
+#C-component .main_contact-right {
+  width: 100%;
+  height: auto;
+  padding: 7vh 5vw;
+}
+.main_contact-right {
+  background-color: #f4f4f4;
+  padding: 10vh 0;
+  width: 50%;
+  height: 40%;
+}
+
+.formwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 15vw);
+  row-gap: 2vh;
+  column-gap: 5vw;
+}
+.form1 {
+    display: grid;
+    grid-template-columns: repeat(1, 15vw);
+    row-gap: 2vh;
+    column-gap: 5vw;
+    width: 100%;
+  }
+
+.form span {
+  display: flex;
+  height: 3.5vh;
+  font-weight: bold;
+}
+.form1 span {
+    display: flex;
+    height: 3.5vh;
+    font-weight: bold;
+    width: 200%;
+  }
+
+.form input {
+  display: grid;
+  height: 6vh;
+  border: unset;
+  outline: unset;
+  border-bottom: 1px dotted #5b5b5b;
+  background-color: unset;
+}
+.form1 input{
+    display: grid;
+    height: 6vh;
+    width: 300%;
+    border: unset;
+    outline: unset;
+    border-bottom: 1px dotted #5b5b5b;
+    background-color: unset;
+}
+
+.form .area {
+  grid-column: 1/-1;
+  height: 25vh;
+  resize: none;
+  overflow: scroll;
+  border: unset;
+  outline: unset;
+  background-color: unset;
+}
+.form1 .area{
+    grid-column: 1/-1;
+    height: 25vh;
+    resize: none;
+    overflow: scroll;
+    border: unset;
+    outline: unset;
+    background-color: unset;
+}
+
+.second-flex {
+  margin-top: 8vh;
+  margin-bottom: 2.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-flex button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border: unset;
+  font-weight: bold;
+  font-size: large;
+  color: #fff;
+  background-color: #ef2410;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.second-flex button:hover {
+  background-color: #f41e0bd0;
+  transition: all 0.5s ease;
+}
+.dg-footer {
+  height: 14vh;
+  width: 100%;
+  background-color: #264d20;
+}
+
+.dg-footer .developer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3%;
+  padding-right: 1%;
+}
+
+.dg-footer .developer p {
+  font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .form {
+    display: grid;
+    grid-template-columns: repeat(1, 40vw);
+    row-gap: 2vh;
+    column-gap: 5vw;
+  }
+  #C-component .main_contact-right {
+    padding: 10vh 10vw 5vh 40vw
+  }
+  .form{
+    display: none;
+  }
+}
+@media screen and (min-width: 991px){
+    .form1{
+        display: none;
+    }
+}
